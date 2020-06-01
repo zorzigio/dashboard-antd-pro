@@ -1,57 +1,9 @@
-# Ant Design Pro
+Hello Volodymyr,
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+Please see the [Auth0 page](https://auth0.com/docs/quickstart/spa/react/01-login) regarding React login.
 
-## Environment Prepare
+The problem I was facing with this template is related to the fact that the routes are exported from the [config.ts](./config/config.ts) file (however I am not and expert in React, so I am sure you can solve this easily)
 
-Install `node_modules`:
+Please also make sure that once the route cannot be accessed by the user (because for instance the user does not have privileges), the entry does not appear in the sidebar menu.
 
-```bash
-npm install
-```
-
-or
-
-```bash
-yarn
-```
-
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
-
-```bash
-npm start
-```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+Thanks
